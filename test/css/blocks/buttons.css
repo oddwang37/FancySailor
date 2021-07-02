@@ -8,6 +8,11 @@
     border: none;
     display: block;
     cursor: pointer;
+    transition: 0.5s all; 
+}
+
+.button:hover {
+    box-shadow: 0 0 10px 0 #E8C300 inset, 0 0 10px 4px #E8C300;
 }
 
 .button_main-yellow {
@@ -35,3 +40,14 @@
     background-color: #E8C300;
     margin-top: 45px;
 }
+
+@keyframes gradient {
+    0% {
+        background: linear-gradient(to bottom, rgb(248, 207, 0), rgb(248, 207, 0.5));
+    }
+    100% {
+      background: linear-gradient(to top, rgb(248, 207, 0.5), rgb(248, 207, 0));
+    }
+  }
+
+  

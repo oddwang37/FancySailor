@@ -44,8 +44,13 @@
     padding-top: 10px;
 }
 
-.form__input:focus {
-    border: 1px solid #E8C300;
+.form__input:hover {
+    box-shadow: 1px 1px 5px #E8C300, -1px -1px 5px #E8C300;
     background-color: #fff;
+}
+
+.form__input:active {
+    border: 2px solid;
+    border-color: #E8C300;
 }
 

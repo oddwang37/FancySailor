@@ -16,7 +16,17 @@
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    width: 445px
+    width: 445px;
+}
+.nav-item {
+    transition: 0.5s all;
+}
+.nav-item:hover {
+    font-size: 16px;
+}
+.nav-list__link {
+    text-decoration: none;
+    color: #fff;
 }
 .header__logo {
     display: block;

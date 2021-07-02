@@ -7,30 +7,26 @@
     <link rel="icon" type="image/png" href="icons/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="icons/favicon-16x16.png" sizes="16x16" />
     <title>Fancy Sailor – Restaraunt</title>
-    <link rel="stylesheet" href="css/base/fonts.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/blocks/buttons.css">
-    <link rel="stylesheet" href="css/blocks/lines.css">
-    <link rel="stylesheet" href="css/blocks/header.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header id="begin">
             <div class="nav-wrapper">
                 <nav class="nav-left">
                     <ul class="nav-list">
-                        <li class="nav-item">home</li>
-                        <li class="nav-item">about</li>
-                        <li class="nav-item">team</li>
-                        <li class="nav-item">booking</li>
+                        <li class="nav-item"><a href="#begin" class="nav-list__link">home</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-list__link">about</a></li>
+                        <li class="nav-item"><a href="#" class="nav-list__link">team</a></li>
+                        <li class="nav-item"><a href="#booking" class="nav-list__link">booking</a></li>
                     </ul>
                 </nav>
-                <img class="header__logo" src="icons/logo.svg" alt="Steering wheel logo">
+                <a href="index.html"><img class="header__logo" src="icons/logo.svg" alt="Steering wheel logo"></a>
                 <nav class="nav-right">
                     <ul class="nav-list">
-                        <li class="nav-item">menu</li>
-                        <li class="nav-item">galerie</li>
-                        <li class="nav-item">events</li>
-                        <li class="nav-item">contact</li>
+                        <li class="nav-item"><a href="#" class="nav-list__link">menu</a></li>
+                        <li class="nav-item"><a href="#" class="nav-list__link">galerie</a></li>
+                        <li class="nav-item"><a href="#" class="nav-list__link">events</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-list__link">contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -42,7 +38,7 @@
                 <button class="button button_main-transparent">explore</button>
             </div>
     </header>
-    <section class="about-us">
+    <section class="about-us" id="about">
         <div class="container">
             <div class="flex-wrapper">
                 <div class="text-wrapper">
@@ -55,7 +51,7 @@
             </div>
         </div>
     </section>
-    <section class="book-table">
+    <section class="book-table" id="booking">
         <div class="container">
             <div class="flex-wrapper">
                 <img src="img/about-us2.jpg" alt="" class="book-table__img">
@@ -104,7 +100,7 @@
             </div>
         </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="container">
             <h2 class="title">Contact</h2>
             <div class="line line_yellow"></div>
@@ -119,7 +115,9 @@
         </div>
     </section>
     <footer class="footer">
+       <div class="container">
         <div class="footer__copyright">© Copyright <span>Fancy Sailor</span> 2014</div>
+       </div>
     </footer>
 </body>
 </html>
