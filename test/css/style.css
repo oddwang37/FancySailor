@@ -1,0 +1,23 @@
+@import "base/fonts.css";
+@import "blocks/buttons.css";
+@import "blocks/lines.css";
+@import "blocks/text.css";
+@import "blocks/forms.css";
+@import "blocks/header.css";
+@import "blocks/about-us.css";
+@import "blocks/book-table.css";
+@import "blocks/specialties.css";
+@import "blocks/contact.css";
+@import "blocks/footer.css";
+
+* {
+    font-family: 'Open Sans';
+    box-sizing: border-box;
+    margin: 0
+}
+
+.container {
+    width: 1155px;
+    margin: 0 auto;
+}
+

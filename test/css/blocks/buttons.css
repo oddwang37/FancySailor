@@ -1,0 +1,37 @@
+.button {
+    background-color: #E8C300;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    display: block;
+    cursor: pointer;
+}
+
+.button_main-yellow {
+    width: 200px;
+    height: 60px;
+}
+
+.button_main-transparent {
+    width: 200px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.button_medium-yellow {
+    margin-top: 7px;
+    width: 99%;
+    height: 60px;
+    background-color: #E8C300;
+}
+
+.button_large-yellow {
+    width: 100%;
+    height: 60px;
+    background-color: #E8C300;
+    margin-top: 45px;
+}

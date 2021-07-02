@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Acme';
+    src: url('../../fonts/Acmeregular.ttf') format('truetype'),
+    url('../../fonts/Acmeregular.woff2') format('woff2'),
+    url('../../fonts/Acmeregular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../../fonts/OpenSans-Regular.eot') format('embedded-opentype'),
+    url('../../fonts/OpenSans-Regular.woff') format('woff'),
+    url('../../fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../../fonts/OpenSans-Bold.eot') format('embedded-opentype'),
+    url('../../fonts/OpenSans-Bold.woff') format('woff'),
+    url('../../fonts/OpenSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    }

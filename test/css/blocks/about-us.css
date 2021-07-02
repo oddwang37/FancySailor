@@ -1,0 +1,8 @@
+.about-us {
+    padding-top: 100px;
+    min-height: 570px;
+}
+
+.about-us__image {
+    display: block;
+}

@@ -1,0 +1,11 @@
+.line {
+    width: 60px;
+    height: 5px;
+    border-radius: 50px;
+    margin: 0 auto;
+    
+}
+
+.line_yellow {
+    background-color: #E8C300;
+}

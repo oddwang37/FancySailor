@@ -1,0 +1,17 @@
+.book-table {
+    padding-top: 80px;
+    padding-bottom: 45px;
+    min-height: 650px;
+}
+
+.book-table__schedule {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 0.5);
+    text-align: center;
+    margin-top: 110px;
+}
+
+.book-table__schedule span {
+    font-weight: 700;
+}
