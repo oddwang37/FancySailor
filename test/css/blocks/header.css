@@ -15,8 +15,13 @@
 .nav-list {
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 445px;
+    padding: 0;
+}
+
+.nav-left .nav-list {
+    padding-left: 20px;
 }
 .nav-item {
     transition: 0.5s all;
@@ -27,6 +32,10 @@
 .nav-list__link {
     text-decoration: none;
     color: #fff;
+}
+
+.nav-mobile {
+    display: none;
 }
 .header__logo {
     display: block;

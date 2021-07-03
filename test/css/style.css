@@ -9,7 +9,8 @@
 @import "blocks/specialties.css";
 @import "blocks/contact.css";
 @import "blocks/footer.css";
-@import "blocks/media.css";
+
+
 
 * {
     font-family: 'Open Sans';
