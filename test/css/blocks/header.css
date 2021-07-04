@@ -25,9 +25,11 @@
 }
 .nav-item {
     transition: 0.5s all;
+    width: 100%;
+    text-align: center;
 }
 .nav-item:hover {
-    font-size: 16px;
+    font-size: 20px;
 }
 .nav-list__link {
     text-decoration: none;
