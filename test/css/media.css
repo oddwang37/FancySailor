@@ -13,9 +13,6 @@
         margin: 0 auto;
         margin-top: 30px;
     }
-    .nav-item:hover {
-        font-size: 12px;
-    }
     .header__logo {
         width: 120px;
         top: 35px;
@@ -53,6 +50,9 @@
 }
 
 @media (max-width: 991.99px) {
+    .container {
+        width: 90vw;
+    }
     .form__input:hover {
         box-shadow: none;
     }
@@ -62,12 +62,6 @@
     .button:hover {
         box-shadow: none;
         border: none;
-    }
-    .nav-item:hover {
-        font-size: 12px;
-    }
-    .container {
-        width: 768px;
     }
     .header {
         padding-left: 15px;
@@ -127,29 +121,28 @@
         display: block;
         filter: drop-shadow(0px 0px 30px rgba(0, 0, 0, 0.5));
     }
-    .form_large .form__input {
-        width: 32%;
-    }
     .form_large .form__textarea {
         width: 100%;
     }
 }
 
 @media (max-width: 767.9px) {
-    .nav-item:hover {
-        font-size: 12px;
-    }
-    .container {
-        width: 576px;
-    }
+
     .form_large .form__input:nth-child(1),
     .form_large .form__input:nth-child(2) {
-        width: 49%;
+        margin-right: 3.5x;
+        margin-left: 3.5px;
+        width: calc(50% - 7px);
+        margin-bottom: 7px;
+
 
     }
     .form_large .form__input:nth-child(3) {
         width: 100%;
-        margin-top: 5px;
+        margin-bottom: 7px;
+    }
+    .form__textarea {
+        margin-top: 0;
     }
     .nav-list {
         display: none;
@@ -162,9 +155,6 @@
 @media (max-width: 575.9px) {
     .nav-item:hover {
         font-size: 12px;
-    }
-    .container {
-        width: 355px;
     }
     .text-wrapper {
         width: 355px;
@@ -191,12 +181,13 @@
         width: 140px;
     } */
     .buttons-wrapper {
-        width: 360px;
+        width: 85%;
     }
     .form_large .form__input:nth-child(1),
     .form_large .form__input:nth-child(2) {
-        width: 99%;
-        margin-bottom: 5px;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 7px;
     }
     .contact {
         padding-left: 20px;

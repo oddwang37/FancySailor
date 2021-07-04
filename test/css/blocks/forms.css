@@ -29,9 +29,9 @@
 }
 
 .form__input_large {
-    width: 32.8%;
     margin: 0 2px;
     margin-bottom: 2px;
+    width: calc(33% - 4px);
 }
 
 .form__textarea {
