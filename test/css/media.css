@@ -53,6 +53,16 @@
 }
 
 @media (max-width: 991.99px) {
+    .form__input:hover {
+        box-shadow: none;
+    }
+    .form__textarea:hover {
+        box-shadow: none;
+    }
+    .button:hover {
+        box-shadow: none;
+        border: none;
+    }
     .nav-item:hover {
         font-size: 12px;
     }

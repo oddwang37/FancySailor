@@ -49,7 +49,10 @@
     background-color: #fff;
 }
 
-.form__input:active {
-    border: 2px solid #E8C300;
+.form__input:focus {
+    outline-color: #e8c300;
+    background-color: #fff;
+    box-shadow: none;
 }
+
 
