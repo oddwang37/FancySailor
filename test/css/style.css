@@ -18,6 +18,22 @@
     margin: 0
 }
 
+html, body {
+    scrollbar-color: #4d4d4d #E8C300;
+    scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 8px; 
+    background-color: #191919;
+}
+
+/* ползунок скроллбара */
+::-webkit-scrollbar-thumb {
+    background-color:#E8C300;
+}
+
 .container {
     width: 1155px;
     margin: 0 auto;
