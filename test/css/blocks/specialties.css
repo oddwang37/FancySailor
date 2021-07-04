@@ -19,5 +19,5 @@
 }
 
 .specialties__img-2 {
-    display: none;
+    display: none !important;
 }
