@@ -16,12 +16,13 @@
 <script>
 const input = document.querySelector('#input');
 
+
 input.addEventListener('input', () => {
-    input.setAttribute('readonly', '');
+    let timerId = setTimeout(() => {
+        input.addEventListener('input', () => {
+        clearTimeout(timerId);
+    })
     console.log(input.value);
-    setTimeout(() => {
-        input.setAttribute('readonly', '');
-        input.removeAttribute('readonly');
     }, 1500);
 });
     </script>
