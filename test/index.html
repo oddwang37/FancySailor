@@ -12,6 +12,21 @@
 </head>
 <body>
     <header class="header id="begin">
+            <div class="header__burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-list nav-list_mobile">
+                <li class="nav-item_mobile"><a href="#begin" class="nav-list__link">home</a></li>
+                <li class="nav-item_mobile"><a href="#about" class="nav-list__link">about</a></li>
+                <li class="nav-item_mobile"><a href="#" class="nav-list__link">team</a></li>
+                <li class="nav-item_mobile"><a href="#booking" class="nav-list__link">booking</a></li>
+                <li class="nav-item_mobile"><a href="#" class="nav-list__link">menu</a></li>
+                <li class="nav-item_mobile"><a href="#" class="nav-list__link">galerie</a></li>
+                <li class="nav-item_mobile"><a href="#" class="nav-list__link">events</a></li>
+                <li class="nav-item_mobile"><a href="#contact" class="nav-list__link">contact</a></li>
+            </ul>
             <div class="nav-wrapper">
                 <nav class="nav-left">
                     <ul class="nav-list">
@@ -124,5 +139,14 @@
         <div class="footer__copyright">© Copyright <span>Fancy Sailor</span> 2014</div>
        </div>
     </footer>
+    <script>
+        const burger = document.querySelector('.header__burger'),
+            nav = document.querySelector('.nav-list_mobile');
+
+        burger.addEventListener('click', () => {
+            burger.classList.toggle('header__burger_active');
+            nav.classList.toggle('nav-list_mobile_active');
+        })
+    </script>
 </body>
 </html>
