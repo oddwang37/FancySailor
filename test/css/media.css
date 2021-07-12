@@ -127,7 +127,10 @@
 }
 
 @media (max-width: 767.9px) {
-
+    .nav-item {
+        margin: 0;
+        text-align: center;
+    }
     .form_large .form__input:nth-child(1),
     .form_large .form__input:nth-child(2) {
         margin-right: 3.5x;
@@ -146,6 +149,15 @@
     }
     .nav-list {
         display: none;
+    }
+    .nav-list_mobile {
+        display: block;
+    }
+    .header__burger {
+        display: block;
+    }
+    .header__logo {
+        top: 20px;
     }
     .subtitle {
         width: 500px;
@@ -176,10 +188,6 @@
     .contact {
         padding-right: 45px;
     }
-    /* .button_main-yellow, 
-    .button_main-transparent {
-        width: 140px;
-    } */
     .buttons-wrapper {
         width: 85%;
     }
