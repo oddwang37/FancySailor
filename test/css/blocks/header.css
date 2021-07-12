@@ -20,7 +20,7 @@
     height: 3px;
     background-color: #E8C300;
     margin-bottom: 8px;
-    box-shadow: 5px 5px 20px black;
+    box-shadow: 5px 5px 40px black;
     transition: 0.5s all;
 }
 .header__burger_active span {
