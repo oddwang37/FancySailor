@@ -13,6 +13,7 @@
     position: fixed;
     top: 30px;
     right: 20px;
+    z-index: 1;
 }
 .header__burger span {
     display: block;
@@ -52,14 +53,14 @@
     position: fixed;
     width: 40vw;
     height: 100vh;
-    left: -100%;
+    right: -100%;
     top: 0;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 2;
+    z-index: 0;
     transition: 0.5s all;
 }
 .nav-list_mobile_active {
-    left: 0;
+    right: 0;
 }
 .nav-item_mobile {
     margin-top: 30px;
