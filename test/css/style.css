@@ -21,6 +21,7 @@
 html, body {
     scrollbar-color: #4d4d4d #E8C300;
     scrollbar-width: thin;
+    scroll-behavior: smooth; 
 }
 
 ::-webkit-scrollbar {
