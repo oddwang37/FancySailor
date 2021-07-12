@@ -27,9 +27,11 @@
     transition: 0.5s all;
     width: 100%;
     text-align: center;
+    line-height: 10px;
 }
 .nav-item:hover {
     font-size: 20px;
+    line-height: 10px;
 }
 .nav-list__link {
     text-decoration: none;
