@@ -51,7 +51,7 @@
 .nav-list_mobile {
     display: none;
     position: fixed;
-    width: 40vw;
+    width: 100vw;
     height: 100vh;
     right: -100%;
     top: 0;
@@ -61,6 +61,7 @@
 }
 .nav-list_mobile_active {
     right: 0;
+
 }
 .nav-item_mobile {
     margin-top: 30px;
